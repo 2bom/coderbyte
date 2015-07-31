@@ -3,7 +3,7 @@ def Palindrome(str)
   # code goes here
   a = str.delete(' ').downcase
   
-  check = 'flase'
+  check = 'false'
   if a == a.reverse
     check = 'true'
   end  
