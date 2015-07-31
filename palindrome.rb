@@ -1,7 +1,7 @@
 def Palindrome(str)
 
   # code goes here
-  a = str.delete(' ')
+  a = str.delete(' ').downcase
   
   check = 'flase'
   if a == a.reverse
@@ -13,4 +13,4 @@ end
    
 # keep this function call here 
 # to see how to enter arguments in Ruby scroll down   
-Palindrome(STDIN.gets)           
+Palindrome(STDIN.gets) 
